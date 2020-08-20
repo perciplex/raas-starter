@@ -4,7 +4,7 @@ import numpy as np
 import time
 
 
-env = gym.make('raaspendulum-v0')
+env = gym.make('RaasPendulum-v0')
 env.reset()
 obs = []
 for i in range(50):
